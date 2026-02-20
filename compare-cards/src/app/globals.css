@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --primary-blue: #0064e0;
+  --dark-text: #1c2a33;
+  --accordion-header-text: #343434;
+  --tag-text: #3c58f9;
+  --content-text: #404040;
+  --benefit-title-text: #4c4b4b;
+  --divider-border: #e2edfb;
+  --button-bg: #edf4fd;
+  --tag-bg: #f0f1ff;
+  --accordion-header-bg: #f3f7fb;
+  --decorative-bg: #f5f6fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-inter), 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #ffffff;
+  color: #1c2a33;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbar for navigation pills */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,38 @@
+<svg width="320" height="200" viewBox="0 0 320 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="cardBg" x1="0" y1="0" x2="320" y2="200" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#FF8A65"/>
+    <stop offset="30%" stop-color="#FF7043"/>
+    <stop offset="60%" stop-color="#F4511E"/>
+    <stop offset="100%" stop-color="#E64A19"/>
+  </linearGradient>
+  <linearGradient id="shimmer" x1="0" y1="0" x2="320" y2="200" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="white" stop-opacity="0.15"/>
+    <stop offset="50%" stop-color="white" stop-opacity="0"/>
+    <stop offset="100%" stop-color="white" stop-opacity="0.08"/>
+  </linearGradient>
+</defs>
+<!-- Card background -->
+<rect width="320" height="200" rx="12" fill="url(#cardBg)"/>
+<!-- Shimmer overlay -->
+<rect width="320" height="200" rx="12" fill="url(#shimmer)"/>
+<!-- Decorative circles -->
+<circle cx="260" cy="40" r="60" fill="white" fill-opacity="0.06"/>
+<circle cx="280" cy="60" r="40" fill="white" fill-opacity="0.04"/>
+<!-- HDFC BANK text -->
+<text x="20" y="32" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="white" letter-spacing="0.5">HDFC BANK</text>
+<!-- Chip -->
+<rect x="20" y="68" width="36" height="28" rx="4" fill="#FFD54F" fill-opacity="0.8"/>
+<rect x="20" y="68" width="36" height="28" rx="4" stroke="white" stroke-opacity="0.3" stroke-width="0.5"/>
+<line x1="20" y1="82" x2="56" y2="82" stroke="#E6B800" stroke-opacity="0.5" stroke-width="0.5"/>
+<line x1="38" y1="68" x2="38" y2="96" stroke="#E6B800" stroke-opacity="0.5" stroke-width="0.5"/>
+<!-- Swiggy brand -->
+<text x="20" y="130" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="white">Swiggy</text>
+<!-- Card type -->
+<text x="20" y="150" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="500" fill="white" fill-opacity="0.7">CREDIT CARD</text>
+<!-- Card number dots -->
+<text x="20" y="172" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" fill="white" fill-opacity="0.6" letter-spacing="2">****  ****  ****  1234</text>
+<!-- MasterCard logo -->
+<circle cx="272" cy="174" r="14" fill="#EB001B" fill-opacity="0.9"/>
+<circle cx="292" cy="174" r="14" fill="#F79E1B" fill-opacity="0.9"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="charm:menu-hamburger">
+<rect width="32" height="32" rx="6" fill="var(--fill-0, white)" fill-opacity="0.12"/>
+<rect x="0.5" y="0.5" width="31" height="31" rx="5.5" stroke="var(--stroke-0, #D3DDFD)" stroke-opacity="0.06"/>
+<path id="Vector" d="M8.85059 22.1395H23.5506M8.85059 16.5395H23.5506M8.85059 10.9395H23.5506" stroke="var(--stroke-0, white)" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
