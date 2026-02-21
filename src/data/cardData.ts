@@ -55,7 +55,7 @@ export const cards = [
     id: 1,
     name: "American Express Gold Credit Card",
     shortName: "Amex Gold",
-    image: "/assets/cards/card-image.png",
+    image: "/assets/cards/card-image.svg",
     shine: "/assets/cards/card-shine.svg",
     bestFor: ["Groceries", "Dining", "Food Ordering", "Travel", "UPI"],
   },
